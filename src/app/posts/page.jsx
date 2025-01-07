@@ -1,5 +1,10 @@
+import Head from "next/head"
 import Link from "next/link"
 
+export const metadata={
+    title:"firstPost",
+    description:"This is firstPost page"
+}
 
 const firstPost = () => {
     return (
